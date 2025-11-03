@@ -1,1 +1,16 @@
-/*  your css code here. If applicable */
+#grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(4, 100px); /* 4 rows of 100px height */
+    gap: 10px; /* Space between grid items */
+}
+
+#grid div {
+    background-color: #4CAF50; /* Green background for the grid items */
+    color: white; /* White text color */
+    display: flex; /* Centering text */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    font-size: 20px; /* Font size */
+    border: 1px solid #fff; /* Optional: white border around items */
+}
